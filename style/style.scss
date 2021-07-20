@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-content{
+    &__navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__lg{
+            h1{
+                font-family: 'Open Sans ExtraBold';
+                line-height: 34px ;
+                font-size: 28px;
+                letter-spacing: 0;
+                color: #3a3a3a;
+                cursor: pointer;
+
+                .lg__span{
+                    color: #EFB00B;
+                }
+            }
+        }
+        &__menu{
+            ul{
+                display: flex;
+
+                li{
+                    margin-right: 15px;
+
+                    a{
+                        font-family: 'Open Sans Bold';
+                        line-height: 26px ;
+                        font-size: 18px;
+                        letter-spacing: 0;
+                        color: #3a3a3a;
+                    }
+                }
+            }
+        }
+    }
+
+    &__main{
+        height: 70vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        &__text{
+            width: 45%;
+            h2{
+                font-family: 'Open Sans ExtraBold';
+                line-height: 68px ;
+                font-size:  58px;
+                letter-spacing: 0;
+                color: #3a3a3a;
+            }
+            h3{
+                font-family: 'Open Sans SemiBold';
+                line-height: 44px ;
+                font-size:  32px;
+                letter-spacing: 0;
+                color: #3a3a3a;
+            }
+            p{
+                font-family: 'Open Sans SemiBold';
+                line-height: 32px ;
+                font-size:  24px;
+                letter-spacing: 0;
+                color: #3a3a3a;
+            }
+        }
+
+        &__image{
+            width: 45%;
+            overflow: hidden;
+            img{
+                height: 450px;
+            }
+        }
+    }
+}
+
+.footer-content{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    &__navigation{
+
+        ul{
+            display: flex;
+        
+            .footer-content__navigation__item{
+                margin-right: 15px;        
+                .footer-content__navigation__item__img{
+                    height: 40px;
+                    fill: #EFB00B;
+                }
+            }
+        }
+    }
+}
+

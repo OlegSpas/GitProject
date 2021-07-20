@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content__navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-content__navigation__lg h1 {
+  font-family: 'Open Sans ExtraBold';
+  line-height: 34px;
+  font-size: 28px;
+  letter-spacing: 0;
+  color: #3a3a3a;
+  cursor: pointer;
+}
+
+.header-content__navigation__lg h1 .lg__span {
+  color: #EFB00B;
+}
+
+.header-content__navigation__menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-content__navigation__menu ul li {
+  margin-right: 15px;
+}
+
+.header-content__navigation__menu ul li a {
+  font-family: 'Open Sans Bold';
+  line-height: 26px;
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #3a3a3a;
+}
+
+.header-content__main {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-content__main__text {
+  width: 45%;
+}
+
+.header-content__main__text h2 {
+  font-family: 'Open Sans ExtraBold';
+  line-height: 68px;
+  font-size: 58px;
+  letter-spacing: 0;
+  color: #3a3a3a;
+}
+
+.header-content__main__text h3 {
+  font-family: 'Open Sans SemiBold';
+  line-height: 44px;
+  font-size: 32px;
+  letter-spacing: 0;
+  color: #3a3a3a;
+}
+
+.header-content__main__text p {
+  font-family: 'Open Sans SemiBold';
+  line-height: 32px;
+  font-size: 24px;
+  letter-spacing: 0;
+  color: #3a3a3a;
+}
+
+.header-content__main__image {
+  width: 45%;
+  overflow: hidden;
+}
+
+.header-content__main__image img {
+  height: 450px;
+}
+
+.footer-content {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-content__navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-content__navigation ul .footer-content__navigation__item {
+  margin-right: 15px;
+}
+
+.footer-content__navigation ul .footer-content__navigation__item .footer-content__navigation__item__img {
+  height: 40px;
+  fill: #EFB00B;
+}
+/*# sourceMappingURL=style.css.map */
